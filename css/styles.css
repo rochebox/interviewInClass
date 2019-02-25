@@ -1,0 +1,242 @@
+/* styles for interview */
+/*  called css/styles */
+
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+
+body {
+	background-color: rgb(91, 198, 234);
+	margin: 0;
+	padding: 0;
+}
+
+.stayPut{
+	position: fixed;
+	width: 100%;
+}
+
+/*
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked
+*/
+
+
+
+a#homeLink:link{
+	text-decoration: none;
+	color: rgb(200,0, 0);
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   font-size: 1.0em;	
+}
+
+
+a#homeLink:visited{
+	text-decoration: none;
+	color: rgb(200,0, 0);
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+	
+	font-size: 1.0em;
+}
+
+
+a#homeLink:hover {
+	text-decoration: none;
+	color: rgb(200,0, 0);
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   font-size: 1.0em;
+}
+
+
+a#homeLink:active {
+	text-decoration: none;
+	color: rgb(255,0, 0);
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   font-size: 1.0em;
+}
+
+
+h1.topHeading {
+	/*font-family: 'Sarabun', sans-serif; */
+	font-family: 'Sigmar One', cursive;
+	color: rgb(200,0, 0);
+	background-color: rgb(22, 36, 135);
+	padding-top: 3.5%;
+	padding-bottom: 3.0%;
+	text-align: center;
+	font-size: 4.8em;
+	margin: 0;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+
+}
+
+
+h2.subHeading {
+	/*font-family: 'Sarabun', sans-serif; */
+	float:none;
+	font-family: 'Sigmar One', cursive;
+	color: rgb(200,0, 0);
+	padding-top: 1.0%;
+	padding-bottom: 1.0%;
+	text-align: center;
+	font-size: 2.5em;
+	margin: 0;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+
+}
+/* two ways to center a picture */
+/* way #1 */
+
+div.pics {
+	text-align: center;
+}
+div.pics2 {
+	padding-top: 21%;
+	width:100%;
+}
+
+
+div.menuBar {
+	padding-left: 10%;
+	padding-top: 0.5%;
+	width: 100%;
+	height: 4.9vw;
+	margin:0;
+	background-color: dodgerblue;
+}
+
+
+
+.menuB {
+	font-family: 'Caveat', cursive;
+	float: left;
+	width: 20%;
+	/* color: orange; */
+	font-size: 2.7em;
+	text-align: center;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgb(22, 36, 135);
+}
+
+
+.menuB:hover {
+	text-decoration: none;
+	background-color: rgb(25, 105, 234);
+	text-align: center;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgb(22, 36, 135);
+}
+
+
+a.menuLink:hover{
+	text-decoration: none;
+	font-size: 1.1em;
+	text-align: center;
+	color: yellow;
+	-webkit-text-stroke-width: 1px;
+   	-webkit-text-stroke-color: rgb(22, 36, 135);
+}
+
+
+a.menuLink:visited, a.menuLink:link{
+	text-decoration: none;
+	color: orange;
+	font-size: 1.1em;
+	text-align: center;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: rgb(22, 36, 135);
+}
+
+a.menuLink:active{
+	color: rgb(255, 141, 35);
+}
+
+
+
+}
+div.pagematerial {
+	float: none;
+}
+
+#firstPic {
+	padding-top: 20%;
+}
+p#pageText {
+	/* font-family: 'Sigmar One', cursive; */
+	font-family: 'Caveat', cursive;
+	float: none;
+	font-size: 2.0em;
+	color: rgb(58, 7, 198);
+	padding-left:15%;
+	padding-right:15%;
+	padding-top:0;
+	margin-top:0;
+}
+
+.bottomPad {
+	padding-bottom: 30%;
+}
+
+
+
+.firstL {
+	font-family: 'Sigmar One', cursive;
+	text-align: center;
+	margin:0;
+	border: 2px blue solid ;
+	background-color: rgb(22, 36, 135);
+	color: dodgerblue;
+	border-radius: 15px 50px 30px;
+	font-size: 2.2em;
+	font-style: italic;
+	font-weight: bolder;
+	margin-right: 4px;
+	padding-left: 4px;
+	padding-bottom:0;
+	margin-bottom: 0;
+}
+
+.textLink {
+	text-decoration: none;
+	color: dodgerblue;
+}
+
+.textLink:hover{
+	color: red;
+
+}
+div.location{
+	/* width="450" height="337" */
+	text-align: center;
+	width: 450px;
+	height: 337px;
+	margin:0;
+	margin-right:auto;
+	margin-left:auto;
+	padding:5%;
+	/* background-color: rgb(22, 36, 135); */
+	background-color: dodgerblue;
+	border-radius: 20px 68px 36px;
+	
+}
+iframe{
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+.floatLeft {
+	width:45%;
+	float:left;
+}
+.floatRight{
+	width:45%;
+	float:right;
+}
+
